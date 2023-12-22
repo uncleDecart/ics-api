@@ -46,6 +46,9 @@ type PatchEnvelopeDescription struct {
 
 	// PatchID Unique identifier of patch envelope
 	PatchID *string `json:"PatchID,omitempty"`
+
+	// Version Version of patch envelope
+	Version *string `json:"Version,omitempty"`
 }
 
 // RequestEditorFn  is the function signature for the RequestEditor callback function
