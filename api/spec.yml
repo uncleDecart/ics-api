@@ -122,6 +122,10 @@ components:
           type: string
           description: Unique identifier of patch envelope
           example: 69bac069-f4c3-435a-b4e7-d635b60e9b5a
+        Version:
+          type: string
+          description: Version of patch envelope 
+          example: 1.0 
         BinaryBlobs:
           type: array
           items:
